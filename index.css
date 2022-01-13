@@ -1,0 +1,225 @@
+/*COMIENZO MENU*/
+ul li a{
+    margin-right: 30px;
+}
+/*PRODUCTO*/
+.my-card
+{
+    position:absolute;
+    left:20%;
+    top:-20px;
+    border-radius:50%;
+}
+.jumbotron{
+	margin-top: 10%;
+	height: 100%;	
+	max-height: 100%;
+}
+/*VIDEO*/
+.btn-nn{
+  text-transform: none;
+  background: #FE5000;
+  color: white;
+  border:1px solid #fff; 
+  margin-top: -20px;
+  font-size: 16px;
+}
+/*DESCRIPCION*/
+.imgIconos2 {
+    width: 50%;
+    height: auto;
+}
+.contenedorSeccionesPedidos {
+    width: 100%;
+    height: auto;
+    background: #004C97;
+    padding-top: 60px;
+}
+.tituloIconosGrandes1{
+	position: absolute;
+    top: 15%;
+    left: -100px;
+    color: #004C97;
+    font-weight: bold;
+}
+.tituloIconosGrandes2{
+	position: absolute;
+    top: 45%;
+    left: -100px;
+    font-size: 16px;
+}
+.tituloIconosGrandes3{
+	margin-top: -10%;
+	position: absolute;
+    top: 15%;
+    left: -100px;
+    color: #004C97;
+    font-weight: bold;
+}
+.tituloIconosGrandes4{
+	margin-top: -10%;
+	position: absolute;
+    top: 45%;
+    left: -100px;
+    font-size: 16px;
+}
+.tituloIconosGrandes5{
+	margin-top: 45%;
+	position: absolute;
+    top: 15%;
+    left: -100px;
+    color: #004C97;
+    font-weight: bold;
+}
+.tituloIconosGrandes6{
+	margin-top: 45%;
+	position: absolute;
+    top: 45%;
+    left: -100px;
+    font-size: 16px;
+}
+/*FOOTER*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+#footer{
+	margin-top: -30%;
+	margin-left: 50%;
+}
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    margin-top: -20%;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #000000;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-70px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+/*BOTON DE PEDIDOS*/
+.button {
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #f72359;
+  padding: 1em 2em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-left: 400px;
+}
+.button span {
+  position: relative;
+  pointer-events: none;
+}
+.button::before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #4405f7, transparent);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: width .2s ease, height .2s ease;
+}
+.button:hover::before {
+  --size: 400px;
+}
+/*BOTON FLOTANTE WHATSAPP*/
+.btn-wsp{
+    position:fixed;
+    width:80px;
+    height:80px;
+    line-height: 63px;
+    bottom:30px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:50px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+    margin-top: 0px;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+.img_anuncio{
+  margin-top: 70px;
+  height: 96px;
+}
